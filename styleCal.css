@@ -1,0 +1,229 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: tomato !important;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 40px;
+  margin-top: 10px;
+  background-color: gray;
+}
+.headerImg {
+  margin-left: 7%;
+  height: 70px;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.imgSrc {
+  height: 70px;
+  width: auto;
+  border-radius: 80px;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 7%;
+}
+.headerlink {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.headerlink:hover {
+  cursor: pointer;
+}
+.heading {
+  margin-left: 50%;
+  margin-top: 5%;
+  transform: translate(-18%);
+  font-size: 50px;
+  font-weight: 800;
+}
+.hello {
+  height: 100vh;
+  width: 100%;
+}
+.helloImg {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.helloText {
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.choiceText {
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.DAndS {
+  width: 40%;
+  height: 50px;
+  background-color: gray;
+  border: 2px solid red;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.DLinkS {
+  text-decoration: none;
+  color: black;
+}
+.mainHeading {
+  margin-left: 50%;
+  transform: translate(-45%);
+  margin-top: 4%;
+  font-weight: 300;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.mainButton {
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 2%;
+  font-weight: 300;
+  font-size: 18px;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid tomato;
+  background-color: black;
+  color: gray;
+}
+.container {
+  background-color: gray;
+  border-radius: 10px;
+  width: 40%;
+  height: 40vh;
+  margin-top: 7%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  box-shadow: 0px 0px 30px 3px black;
+}
+.containHeading {
+  margin-left: 50%;
+  transform: translate(-50%);
+  padding: 2%;
+  font-weight: 600;
+}
+.result {
+  margin-left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  margin-top: 2%;
+  background-color: tomato;
+  width: 55%;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  padding-top: 8px;
+}
+.main {
+  background-color: gray;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 30%;
+  height: 70vh;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.simpleResult {
+  background-color: rgb(40, 59, 40);
+  height: 15%;
+  margin-top: 0%;
+  font-size: 50px;
+}
+.resultInput{
+    width: 99%;
+    height: 112%;
+    background-color: rgb(40, 59, 40);
+    border: 2px solid black;
+    font-size: 50px;
+    overflow: visible;
+}
+hr {
+  height: 5%;
+  background-color: black;
+  border: 2px solid;
+  border-bottom-color: tomato;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.mainH3 {
+  text-align: center;
+  font-size: 23px;
+  background-color: black;
+  color: white;
+}
+.firstButt {
+  margin-top: 10%;
+  margin-bottom: 10px;
+}
+.secondButt {
+  margin-bottom: 10px;
+}
+.buttonsAll {
+  width: 23%;
+  height: 8vh;
+  margin-left: 4px;
+  border-radius: 4px;
+  border: 1px solid tomato;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.buttonson {
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 10px;
+  border-radius: 130px !important;
+  width: 15%;
+  height: 8vh;
+  background-color: black;
+  color: white;
+  border: 2px solid tomato;
+}
+
+#green{
+  background-color: greenyellow;
+}
+#red{
+  background-color: red;
+}

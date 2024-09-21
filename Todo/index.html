@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Todo</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="./faveicon/site.webmanifest" />
+    <link rel="stylesheet" href="styla.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,45 +17,40 @@
     />
     <link
       rel="shortcut icon"
-      href="./favicon_io/favicon.ico"
+      href="./faveicon/favicon-32x32.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="stylo.css" />
   </head>
   <body>
     <header>
       <div class="img">
         <img
           class="imgSrc"
-          src="./favicon_io/android-chrome-512x512.png"
+          src="./faveicon/android-chrome-512x512.png"
+          height="80vh"
+          width="auto"
           alt=""
         />
       </div>
       <div class="links">
         <ul class="linkUl">
-          <li><a href="./Todo/index.html">Add Work</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Todo/index.html">Add Work</a></li>
           <li><a href="#">Make Table</a></li>
-          <li><a href="./calculater/index.html">calculate</a></li>
+          <li><a href="../calculater/index.html">Calculate</a></li>
         </ul>
       </div>
     </header>
     <main>
-      <div class="calculator" style="border-color: tomato">
-        <button class="calculateButton" style="background-color: tomato">
-          <a href="./calculater/index.html">Calculator</a>
-        </button>
-        <h1 class="pera">calculate any thing</h1>
-      </div>
-      <div class="calculator">
-        <button class="calculateButton"><a href="#">Table Genrator</a></button>
-        <h1 class="pera">Genrate a Table</h1>
-      </div>
-      <div class="calculator" style="border-color: #4379f2">
-        <button class="calculateButton" style="background-color: #4379f2">
-          <a href="./Todo/index.html">Todo</a>
-        </button>
-        <h1 class="pera">Write here what you have todo</h1>
+      <div class="card">
+        <input class="InputTodo" type="text" placeholder="Enter what Todo" />
+        <div class="buttons">
+            <button onclick="Addto()" class="buttonAD">Add</button>
+          <button class="buttonAD" onclick="cleardo()">clear Todo</button>
+        </div>
+        <div class="div"><p style="padding-top: 20px;color:#117554; background-color: #e9dd5e;">your Todo will be show here</p></div>
       </div>
     </main>
   </body>
+  <script src="./js.js"></script>
 </html>

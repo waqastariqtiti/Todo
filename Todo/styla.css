@@ -1,0 +1,116 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: #4379f2;
+}
+body{
+  height: 100vh;
+  width: auto;
+}
+header {
+  height: 14vh;
+  width: 100%;
+  background-color: #ffeb00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgSrc {
+  border-radius: 20px;
+}
+.img {
+  background-color: #ffeb00;
+  margin-left: 3%;
+}
+.links {
+  margin-right: 7%;
+}
+.linkUl {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: #ffeb00;
+}
+li {
+  padding: 14px;
+  border-radius: 13px;
+  cursor: pointer;
+  flex-grow: 1;
+  color: white;
+  background-color: #ffeb00;
+  font-weight: 800;
+  font-size: 23px;
+}
+li:hover {
+  border: 1px solid black;
+}
+li:active {
+  border: 2px solid white;
+}
+a {
+  text-decoration: none;
+  color: #117554;
+  background-color: #ffeb00;
+  font-family: "Roboto";
+  transition: border 0.5s;
+  font-style: normal;
+}
+.card {
+  background-color: #ffeb00;
+  width: 35%;
+  margin-left: 50%;
+  transform: translate(-50%, 30%);
+  height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 5px #117554;
+}
+.InputTodo {
+  background-color: white;
+  width: 70%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  height: 10%;
+  margin-top: 6%;
+  font-size: 20px;
+  color: #117554;
+  padding-left: 10px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #ffeb00;
+  margin-top: 5%;
+  width: 80%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.buttonAD {
+  width: 30%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #6ec207;
+  color: #117554;
+  font-size: 18px;
+  transition: border 0.2s ease;
+}
+.buttonAD:active{
+  border: 2px solid white;
+}
+.div {
+  height: 50%;
+  width: 90%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #e9dd5e;
+  overflow: scroll;
+}

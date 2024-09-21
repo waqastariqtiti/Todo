@@ -1,0 +1,93 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #384b70;
+}
+header {
+  height: 14vh;
+  width: 100%;
+  background-color: #507687;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgSrc {
+  height: 80px;
+  width: auto;
+  border-radius: 30px;
+}
+img {
+  margin-left: 50%;
+}
+.links {
+  margin-right: 7%;
+}
+.linkUl {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+li {
+  padding: 14px;
+  border-radius: 13px;
+  cursor: pointer;
+  flex-grow: 1;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+li:hover {
+  border: 1px solid black;
+}
+li:active {
+  border: 2px solid white;
+}
+.calculator {
+  background-color: #507687;
+  width: 50%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 4%;
+  height: 140px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+.calculateButton {
+  width: 40%;
+  height: 10vh;
+  margin-left: 50%;
+  transform: translate(-50%);
+  background-color: #384b70;
+  border-radius: 20px;
+  margin-top: 5px;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+.calculateButton:hover {
+  cursor: pointer;
+  font-size: 22px;
+}
+.calculateButton:active {
+  border: 2px solid white;
+}
+.pera {
+  text-align: center;
+  margin-top: 7px;
+  color: white;
+  font-size: 30px;
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}   
+a {
+  text-decoration: none;
+  color: white;
+}

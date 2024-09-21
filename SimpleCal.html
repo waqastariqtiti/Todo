@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculater | Simple</title>
+    <link rel="stylesheet" href="styleCal.css" />
+    <link rel="shortcut icon" href="./img/favicon.webp" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="headerImg">
+        <img class="imgSrc" src="./img/header.png" alt="msndbvma" />
+      </div>
+      <div class="links">
+        <span><a class="headerlink" href="./indexCal.html">Home</a></span>
+        <span><a class="headerlink" href="./DigitalCal.Html">Digital</a></span>
+        <span
+          ><a
+            style="color: tomato !important"
+            class="headerlink"
+            href="./SimpleCal.html"
+            >Simple</a
+          ></span
+        >
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <h3 class="mainH3">casio calculater</h3>
+        <div class="simpleResult"></div>
+        <hr />
+        <div class="firstButt">
+          <button class="buttonsAll" onclick="butt1()">1</button>
+          <button class="buttonsAll" onclick="butt2()">2</button>
+          <button class="buttonsAll" onclick="butt3()">3</button>
+          <button class="buttonsAll" onclick="buttPlus()">+</button>
+        </div>
+        <div class="secondButt">
+          <button class="buttonsAll" onclick="butt4()">4</button>
+          <button class="buttonsAll" onclick="butt5()">5</button>
+          <button class="buttonsAll" onclick="butt6()">6</button>
+          <button class="buttonsAll" onclick="buttMinus()">-</button>
+        </div>
+        <div class="secondButt">
+          <button class="buttonsAll" onclick="butt7()">7</button>
+          <button class="buttonsAll" onclick="butt8()">8</button>
+          <button class="buttonsAll" onclick="butt9()">9</button>
+          <button class="buttonsAll" onclick="buttMulti()">*</button>
+        </div>
+        <div>
+          <button class="buttonsAll" onclick="buttAc()">AC</button>
+          <button class="buttonsAll" onclick="butt0()">0</button>
+          <button class="buttonsAll" onclick="buttEqual()">=</button>
+          <button class="buttonsAll" onclick="buttDivide()">/</button>
+        </div>
+        <button id="red" class="buttonson" onclick="butt()">off</button>
+      </div>
+    </main>
+  </body>
+  <script src="./simpleCal.js"></script>
+</html>

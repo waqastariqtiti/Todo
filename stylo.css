@@ -36,16 +36,13 @@ li {
   border-radius: 13px;
   cursor: pointer;
   flex-grow: 1;
-  color: white;
+  background-color : #384b70;
   font-weight: 300;
   font-size: 20px;
-  transition: all 0.5s;
-}
-li:hover {
-  border: 1px solid black;
+  transition: all 0.9s;
 }
 li:active {
-  border: 2px solid white;
+  border: 1px solid white;
 }
 .calculator {
   background-color: #507687;

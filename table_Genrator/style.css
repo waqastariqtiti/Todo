@@ -1,0 +1,113 @@
+* {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: #347928;
+}
+
+header {
+  height: 14vh;
+  width: 100%;
+  background-color: #c0eba6;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.imgSrc {
+  border-radius: 10px;
+  box-shadow: 0pc 0pc 5px 1px gray;
+}
+.img {
+  background-color: #c0eba6;
+  margin-left: 3%;
+}
+.links {
+  margin-right: 7%;
+}
+.linkUl {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: #c0eba6;
+}
+li {
+  padding: 14px;
+  border-radius: 13px;
+  cursor: pointer;
+  flex-grow: 1;
+  color: white;
+  background-color: #c0eba6;
+  font-weight: 800;
+  font-size: 23px;
+}
+li:hover {
+  border: 1px solid #347928;
+}
+li:active {
+  border: 2px solid white;
+}
+a {
+  text-decoration: none;
+  color: #117554;
+  background-color: #c0eba6;
+  font-family: "Roboto";
+  transition: border 0.5s;
+  font-style: normal;
+}
+.main1 {
+  text-align: center;
+  margin-top: 4%;
+  background-color: #c0eba6;
+  color: #347928;
+  width: 50%;
+  height: 72vh;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+  padding: 10px;
+}
+.input {
+  width: 80%;
+  height: 40%;
+  border: 2px solid #347928;
+  color: #347928;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+.Genrate {
+  height: 40px;
+  width: 40%;
+  border-radius: 10px;
+  background-color: #347928;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.functionIN {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.result{
+    background-color: #FFFBE6;
+    color: #347928;
+    height: 40vh;
+    width: 70%;
+    margin-top: 10px;
+    border: 2px solid #347928;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
